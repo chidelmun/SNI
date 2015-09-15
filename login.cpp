@@ -18,7 +18,7 @@ Login::Login(QWidget *parent) :
 {
   //std::cout <<  mysql_get_client_info() << "\n";
     ui->setupUi(this);
-    this->setFixedSize(400,400);
+    //this->setFixedSize(400,400);
     ui->progressBar->setValue(0);
     ui->progressBar->setStyleSheet("background-color:red;");
     ui->progressBar->hide();
