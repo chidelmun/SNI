@@ -15,14 +15,17 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     login.cpp \
-    loadingwindow.cpp
+    loadingwindow.cpp \
+    registration.cpp
 
 HEADERS  += mainwindow.h \
     login.h \
-    loadingwindow.h
+    loadingwindow.h \
+    registration.h
 
 FORMS    += mainwindow.ui \
     login.ui \
-    loadingwindow.ui
+    loadingwindow.ui \
+    registration.ui
 
 QMAKE_CXXFLAGS +=  `mysql_config --cflags --libs`
