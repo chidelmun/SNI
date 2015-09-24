@@ -6,6 +6,7 @@ Registration::Registration(QWidget *parent) :
     ui(new Ui::Registration)
 {
     ui->setupUi(this);
+    this->setFixedSize(1300,650);
 }
 
 Registration::~Registration()
