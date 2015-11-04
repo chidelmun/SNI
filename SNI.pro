@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    login.cpp \
+    loadingwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    login.h \
+    loadingwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    login.ui \
+    loadingwindow.ui
