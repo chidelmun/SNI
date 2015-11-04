@@ -16,7 +16,7 @@ Login::Login(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Login)
 {
-  std::cout <<  mysql_get_client_info() << "\n";
+  //std::cout <<  mysql_get_client_info() << "\n";
     ui->setupUi(this);
     ui->progressBar->setValue(0);
     ui->progressBar->setStyleSheet("background-color:red;");
@@ -43,7 +43,7 @@ void Login::on_pushButton_clicked()
         ui->progressBar->setValue(i);
     }
     MainWindow *w = new MainWindow();
-    w->setFixedSize(1200,750);
+    w->setFixedSize(1300,650);
     w->show();
     hide();
 
