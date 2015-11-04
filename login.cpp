@@ -8,11 +8,15 @@
 #include <QtSql/QSqlDriver>
 #include <QtSql/QSqlQuery>
 #include <QDebug>
+#include <math.h>
+#include <mysql/mysql.h>
+#include <iostream>
 
 Login::Login(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Login)
 {
+  std::cout <<  mysql_get_client_info() << "\n";
     ui->setupUi(this);
     ui->progressBar->setValue(0);
     ui->progressBar->setStyleSheet("background-color:red;");

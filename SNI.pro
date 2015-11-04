@@ -24,3 +24,5 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui \
     login.ui \
     loadingwindow.ui
+
+QMAKE_CXXFLAGS +=  `mysql_config --cflags --libs`
