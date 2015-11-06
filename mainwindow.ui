@@ -43,14 +43,14 @@
      <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_13">
        <property name="text">
-        <string>PushButton</string>
+        <string>Identification</string>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
       <widget class="QPushButton" name="pushButton_14">
        <property name="text">
-        <string>PushButton</string>
+        <string>Foreigners</string>
        </property>
       </widget>
      </item>
@@ -258,42 +258,42 @@
      <item row="1" column="2">
       <widget class="QPushButton" name="pushButton_10">
        <property name="text">
-        <string>PushButton</string>
+        <string>Settings</string>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
       <widget class="QPushButton" name="pushButton_9">
        <property name="text">
-        <string>PushButton</string>
+        <string>Cases</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
       <widget class="QPushButton" name="pushButton_6">
        <property name="text">
-        <string>PushButton</string>
+        <string>Complaints</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
       <widget class="QPushButton" name="pushButton_5">
        <property name="text">
-        <string>PushButton</string>
+        <string>Evidence</string>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
       <widget class="QPushButton" name="pushButton_12">
        <property name="text">
-        <string>PushButton</string>
+        <string>Assets</string>
        </property>
       </widget>
      </item>
      <item row="2" column="3">
       <widget class="QPushButton" name="pushButton_11">
        <property name="text">
-        <string>PushButton</string>
+        <string>Glodals</string>
        </property>
       </widget>
      </item>
