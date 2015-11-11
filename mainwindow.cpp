@@ -17,5 +17,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
+    /*MainWindow *w = new MainWindow();
+    w->setFixedSize(1300,650);
+    w->show();
+    hide();
+    */
 
+    Registration *win = new Registration();
 }
