@@ -17,8 +17,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    Registration *win = new Registration;
-    win->show();
-
-
+ Registration *reg = new Registration(0);
+ reg->show();
 }
